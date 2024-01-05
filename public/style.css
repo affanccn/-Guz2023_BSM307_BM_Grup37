@@ -1,0 +1,106 @@
+*{ margin : 0; padding:0; box-sizing: border-box; }
+input:focus,button:focus{outline: 0}
+
+body{
+   font-family: 'Times New Roman'
+}
+
+h2{
+    font-size: 30px;
+    padding: 5px 220px;
+    color:rgb(255, 255, 255);
+    background-color: rgb(4, 108, 2);
+
+}
+
+#chat-wrap{
+    max-width: 600px;
+    margin: 40px auto;
+    border: 5px solid #219101;
+    border-radius: 5px;
+    backdrop-filter: blur(7px); 
+    -webkit-backdrop-filter: blur(5px); 
+    background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+#chat-window{
+    height: 400px;
+    overflow-y: auto;
+
+}
+
+#output p{
+    font-size: 19px;
+    padding: 12px;
+    background-color: #f7f7f711;
+    text-shadow: 1px 1px 4px rgba(0.2, 0.2, 0.2, 0.3);
+    
+
+
+}
+
+#output p:nth-child(even){
+    background-color: #f5f4f48b;
+    
+    
+    
+
+}
+
+
+#feedback p{
+    font-size: 13px;
+    padding: 12px;
+
+}
+
+#output strong{
+    color: #860b73;
+    
+    
+}
+
+
+input{
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid #016b0c ;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+
+}
+button{
+    font-family: 'Poppins';
+    background-color: rgb(1, 142, 15);
+    color: #fff;
+    border: 0;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
